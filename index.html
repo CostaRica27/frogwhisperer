@@ -41,10 +41,10 @@
 			}
 		</style>
 		<div class="row">
-			<body class="left">
+			<body class="column left">
 				<p>column</p>
 			</body>
-			<body class="center">
+			<div class="center">
 				<h3 class="w">
 					welcome!
 				</h3>
@@ -59,10 +59,10 @@
 					<li></li>
 					<li><a href="music.html" class="nav-bar-item">music</a></li>
 				</ul>
-			</body>
-			<body class="right">
+			</div>
+			<div class="column right">
 				<p>column</p>
-			</body>
+			</div>
 		</div>
 		<style type="text/css">
 			.nav-bar {
@@ -78,13 +78,14 @@
 				font-size: 30px;
 				text-align: center;
 			}
-			.left {
+			.column {
 				float: left;
+				padding: 10px;
+			.left {
 				width: 25%
 			}
 			.right {
 				width: 25%;
-				float: right;
 			}
 			.center {
 				width: 50%;

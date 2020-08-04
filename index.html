@@ -80,8 +80,8 @@
       font-size: 30px;
       text-align: center;
     }
-		.column {
-  		float: left;
+    .column {
+      float: left;
 		}
 
 		.left, .right {
@@ -91,6 +91,11 @@
 		.center {
  			width: 50%;
 		}
+	.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   </style>
   <style>
     .w {

@@ -41,7 +41,7 @@
       font-size: 60px;
     }
   </style>
-  <div class="content">
+  <div class="row">
     <body class="left">
             <p>column</p>
 	</body>
@@ -93,7 +93,11 @@
  			width: 50%;
 			float: center;
 		}
-
+	.row:after {
+  	  content: "";
+	  display: table;
+ 	  clear: both;
+}
     </style>
   <style>
     .w {

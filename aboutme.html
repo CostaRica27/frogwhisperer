@@ -99,9 +99,10 @@
 			}
 		</style>
 		<footer class="footer">
-			<a href="#home" class="active">Home</a>
-  			<a href="#news">News</a>
-  			<a href="#contact">Contact</a>
+			<a href="#home" class="footer-item">Home</a>
+  			<a href="#news" class="footer-item">News</a>
+  			<a href="#contact" class="footer-item">Contact</a>
+			<a href="#music" class="footer-item">music</a>
 		</footer>
 		<style>
 			.footer {
@@ -109,9 +110,26 @@
 				padding: 20px;
 				font-family: Georgia;
 				text-align: center;
-				margin-bottom: 0px;
+				bottom: 0;
 				background-width: 100%;
-				
+				overflow: hidden;
+			}
+			.footer-item {
+				text-decoration: none;
+				color: rgb(204,255,140);
+				float: center;
+				display: block;
+				text-align: center;
+				padding: 10px;
+				font-size: 20px;
+			}
+			.footer-item a:hover {
+				background-color: white;
+				color: rgb(204,255,140);
+			}
+			.footer-item a.active {
+				background-color: black;
+				color: white;
 			}
 		</style>
 	</body>
